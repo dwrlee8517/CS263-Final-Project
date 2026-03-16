@@ -1,0 +1,9 @@
+{"index": 0, "id": null, "text": "Heparin recalled in France, Italy, Denmark: report.", "gold_label": "true", "pred_label": "true", "raw_response": "true", "latency_sec": 1.6265088340005605}
+{"index": 1, "id": null, "text": "Britain gives scientist go-ahead to genetically modify human embryos.", "gold_label": "true", "pred_label": "true", "raw_response": "true", "latency_sec": 1.1883622499990452}
+{"index": 2, "id": null, "text": "\"Mike Pence Says Hillary Clinton \"\"wants to increase Syrian refugees to this country by 550 percent.\"", "gold_label": "true", "pred_label": "false", "raw_response": "false", "latency_sec": 2.419614874999752}
+{"index": 3, "id": null, "text": "Judge considers Hammond Ranches grazing permit.", "gold_label": "true", "pred_label": "true", "raw_response": "true", "latency_sec": 2.769826125000691}
+{"index": 4, "id": null, "text": "Pedestrian finds baby alive in bag along Indiana roadway.", "gold_label": "true", "pred_label": "true", "raw_response": "true", "latency_sec": 1.1438199579988577}
+{"index": 5, "id": null, "text": "O’Rourke offers blue vision for red Texas during Nelson show.", "gold_label": "true", "pred_label": "true", "raw_response": "true", "latency_sec": 2.4984344160002365}
+{"index": 7, "id": null, "text": "The Swedish parliament rejected seven proposals in May 2017 establishing a mandatory vaccination program, enacting a ban on the practice.", "gold_label": "false", "pred_label": "false", "raw_response": "false", "latency_sec": 2.5038916660014365}
+{"index": 8, "id": null, "text": "Another Potential Benefit of Cutting Calories: Better Memory", "gold_label": "true", "pred_label": "true", "raw_response": "true", "latency_sec": 2.700544291999904}
+{"index": 9, "id": null, "text": "NASA twins study explores space, the final genetic frontier.", "gold_label": "true", "pred_label": "mixture", "raw_response": "mixture", "latency_sec": 2.7159560410000267}

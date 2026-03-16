@@ -1,0 +1,62 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "dataset": "intel",
+  "split": "test",
+  "elapsed_sec": 638.3054168329982,
+  "sample_count": 50,
+  "valid_count": 50,
+  "coverage": 1.0,
+  "timestamp_utc": "2026-03-01T03:41:01.057741+00:00",
+  "accuracy": 0.6,
+  "macro_f1": 0.5621621621621622,
+  "confusion_matrix": [
+    [
+      17,
+      1,
+      1
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      9,
+      4,
+      9
+    ]
+  ],
+  "classification_report": {
+    "true": {
+      "precision": 0.6538461538461539,
+      "recall": 0.8947368421052632,
+      "f1-score": 0.7555555555555555,
+      "support": 19.0
+    },
+    "false": {
+      "precision": 0.4444444444444444,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.4444444444444444,
+      "support": 9.0
+    },
+    "mixture": {
+      "precision": 0.6,
+      "recall": 0.4090909090909091,
+      "f1-score": 0.4864864864864865,
+      "support": 22.0
+    },
+    "accuracy": 0.6,
+    "macro avg": {
+      "precision": 0.5660968660968662,
+      "recall": 0.5827573985468723,
+      "f1-score": 0.5621621621621622,
+      "support": 50.0
+    },
+    "weighted avg": {
+      "precision": 0.5924615384615385,
+      "recall": 0.6,
+      "f1-score": 0.5811651651651651,
+      "support": 50.0
+    }
+  }
+}

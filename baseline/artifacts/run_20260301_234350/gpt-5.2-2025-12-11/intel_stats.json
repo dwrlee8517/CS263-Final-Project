@@ -1,0 +1,62 @@
+{
+  "model": "gpt-5.2-2025-12-11",
+  "dataset": "intel",
+  "split": "test",
+  "elapsed_sec": 1612.971553167008,
+  "sample_count": 1000,
+  "valid_count": 1000,
+  "coverage": 1.0,
+  "timestamp_utc": "2026-03-02T00:10:43.504835+00:00",
+  "accuracy": 0.558,
+  "macro_f1": 0.5657827919558581,
+  "confusion_matrix": [
+    [
+      135,
+      15,
+      105
+    ],
+    [
+      2,
+      182,
+      27
+    ],
+    [
+      170,
+      123,
+      241
+    ]
+  ],
+  "classification_report": {
+    "true": {
+      "precision": 0.43973941368078173,
+      "recall": 0.5294117647058824,
+      "f1-score": 0.4804270462633452,
+      "support": 255.0
+    },
+    "false": {
+      "precision": 0.56875,
+      "recall": 0.8625592417061612,
+      "f1-score": 0.6854990583804144,
+      "support": 211.0
+    },
+    "mixture": {
+      "precision": 0.646112600536193,
+      "recall": 0.45131086142322097,
+      "f1-score": 0.5314222712238148,
+      "support": 534.0
+    },
+    "accuracy": 0.558,
+    "macro avg": {
+      "precision": 0.5515340047389915,
+      "recall": 0.6144272892784216,
+      "f1-score": 0.5657827919558581,
+      "support": 1000.0
+    },
+    "weighted avg": {
+      "precision": 0.5771639291749263,
+      "recall": 0.558,
+      "f1-score": 0.5509286909489376,
+      "support": 1000.0
+    }
+  }
+}

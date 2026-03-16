@@ -1,0 +1,53 @@
+{
+  "config_file": "evaluate_config.yaml",
+  "models": [
+    "gpt-5.2-2025-12-11",
+    "gemini-3-flash-preview",
+    "google/gemma-3-12b-it",
+    "google/medgemma-4b-it",
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "Qwen/Qwen3-8B"
+  ],
+  "config": {
+    "sample_size": null,
+    "seed": 42,
+    "split": "test",
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "retry_on_invalid": 1,
+    "reasoning_effort": "high",
+    "prompt_mode": "few_shot",
+    "few_shot_examples": [
+      {
+        "claim": "Global coronavirus death toll hits 150,000: Reuters tally.",
+        "label": "true"
+      },
+      {
+        "claim": "Photographs show a boy having his arm crushed under a truck as a punishment for stealing bread.",
+        "label": "false"
+      },
+      {
+        "claim": "Pepsi admitted that Aquafina is just tap water.",
+        "label": "mixture"
+      },
+      {
+        "claim": "Vaccines have been shown to be effective in preventing serious illness and death from COVID-19.",
+        "label": "true"
+      },
+      {
+        "claim": "The moon landing was faked by NASA to create a sense of American superiority.",
+        "label": "false"
+      },
+      {
+        "claim": "Mail-in ballots can be vulnerable to tampering, but many states have implemented secure measures to ensure their integrity.",
+        "label": "mixture"
+      }
+    ]
+  },
+  "paths": {
+    "main_dir": ".",
+    "artifacts_root_dir": "artifacts",
+    "artifacts_dir": "artifacts/run_20260301_040725"
+  },
+  "dataset_dir": "./data"
+}

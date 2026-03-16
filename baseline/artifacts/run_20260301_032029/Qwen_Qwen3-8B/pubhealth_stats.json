@@ -1,0 +1,62 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "dataset": "pubhealth",
+  "split": "test",
+  "elapsed_sec": 736.693462958996,
+  "sample_count": 49,
+  "valid_count": 49,
+  "coverage": 1.0,
+  "timestamp_utc": "2026-03-01T03:53:17.762319+00:00",
+  "accuracy": 0.40816326530612246,
+  "macro_f1": 0.384828349944629,
+  "confusion_matrix": [
+    [
+      11,
+      3,
+      11
+    ],
+    [
+      3,
+      3,
+      8
+    ],
+    [
+      4,
+      0,
+      6
+    ]
+  ],
+  "classification_report": {
+    "true": {
+      "precision": 0.6111111111111112,
+      "recall": 0.44,
+      "f1-score": 0.5116279069767442,
+      "support": 25.0
+    },
+    "false": {
+      "precision": 0.5,
+      "recall": 0.21428571428571427,
+      "f1-score": 0.3,
+      "support": 14.0
+    },
+    "mixture": {
+      "precision": 0.24,
+      "recall": 0.6,
+      "f1-score": 0.34285714285714286,
+      "support": 10.0
+    },
+    "accuracy": 0.40816326530612246,
+    "macro avg": {
+      "precision": 0.45037037037037037,
+      "recall": 0.4180952380952381,
+      "f1-score": 0.384828349944629,
+      "support": 49.0
+    },
+    "weighted avg": {
+      "precision": 0.5036281179138322,
+      "recall": 0.40816326530612246,
+      "f1-score": 0.41671977761204154,
+      "support": 49.0
+    }
+  }
+}

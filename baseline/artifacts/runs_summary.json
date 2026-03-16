@@ -1,0 +1,278 @@
+[
+  {
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "dataset": "intel",
+    "split": "test",
+    "elapsed_sec": 8839.621519916996,
+    "sample_count": 8379,
+    "valid_count": 8374,
+    "coverage": 0.9994032700799618,
+    "timestamp_utc": "2026-02-27T20:52:12.136242+00:00",
+    "accuracy": 0.5691425841891569,
+    "macro_f1": 0.5873046129709255,
+    "confusion_matrix": [
+      [
+        1713,
+        101,
+        351
+      ],
+      [
+        50,
+        1470,
+        357
+      ],
+      [
+        2074,
+        675,
+        1583
+      ]
+    ],
+    "classification_report": {
+      "true": {
+        "precision": 0.4464425332290852,
+        "recall": 0.7912240184757505,
+        "f1-score": 0.57080973008997,
+        "support": 2165.0
+      },
+      "false": {
+        "precision": 0.6544968833481746,
+        "recall": 0.7831646244006393,
+        "f1-score": 0.7130730050933786,
+        "support": 1877.0
+      },
+      "mixture": {
+        "precision": 0.6909646442601484,
+        "recall": 0.3654201292705448,
+        "f1-score": 0.47803110372942775,
+        "support": 4332.0
+      },
+      "accuracy": 0.5691425841891569,
+      "macro avg": {
+        "precision": 0.5973013536124694,
+        "recall": 0.6466029240489782,
+        "f1-score": 0.5873046129709255,
+        "support": 8374.0
+      },
+      "weighted avg": {
+        "precision": 0.6195721964915758,
+        "recall": 0.5691425841891569,
+        "f1-score": 0.5547016763268375,
+        "support": 8374.0
+      }
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "dataset": "pubhealth",
+    "split": "test",
+    "elapsed_sec": 1225.132309833003,
+    "sample_count": 1186,
+    "valid_count": 1167,
+    "coverage": 0.9839797639123102,
+    "timestamp_utc": "2026-02-27T21:12:37.305504+00:00",
+    "accuracy": 0.5467009425878321,
+    "macro_f1": 0.5029207318162067,
+    "confusion_matrix": [
+      [
+        361,
+        62,
+        163
+      ],
+      [
+        92,
+        207,
+        85
+      ],
+      [
+        81,
+        46,
+        70
+      ]
+    ],
+    "classification_report": {
+      "true": {
+        "precision": 0.6760299625468165,
+        "recall": 0.6160409556313993,
+        "f1-score": 0.6446428571428572,
+        "support": 586.0
+      },
+      "false": {
+        "precision": 0.6571428571428571,
+        "recall": 0.5390625,
+        "f1-score": 0.592274678111588,
+        "support": 384.0
+      },
+      "mixture": {
+        "precision": 0.22012578616352202,
+        "recall": 0.3553299492385787,
+        "f1-score": 0.27184466019417475,
+        "support": 197.0
+      },
+      "accuracy": 0.5467009425878321,
+      "macro avg": {
+        "precision": 0.5177662019510653,
+        "recall": 0.503477801623326,
+        "f1-score": 0.5029207318162067,
+        "support": 1167.0
+      },
+      "weighted avg": {
+        "precision": 0.5928544944897218,
+        "recall": 0.5467009425878321,
+        "f1-score": 0.5644795104874178,
+        "support": 1167.0
+      }
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "dataset": "intel",
+    "split": "test",
+    "elapsed_sec": 29173.907048,
+    "sample_count": 8379,
+    "valid_count": 0,
+    "coverage": 0.0,
+    "timestamp_utc": "2026-02-28T05:18:51.298482+00:00",
+    "accuracy": null,
+    "macro_f1": null,
+    "confusion_matrix": [],
+    "classification_report": {}
+  },
+  {
+    "model": "Qwen/Qwen3-8B",
+    "dataset": "pubhealth",
+    "split": "test",
+    "elapsed_sec": 3798.2572693330003,
+    "sample_count": 1186,
+    "valid_count": 0,
+    "coverage": 0.0,
+    "timestamp_utc": "2026-02-28T06:22:09.596062+00:00",
+    "accuracy": null,
+    "macro_f1": null,
+    "confusion_matrix": [],
+    "classification_report": {}
+  },
+  {
+    "model": "google/gemma-3-12b-it",
+    "dataset": "intel",
+    "split": "test",
+    "elapsed_sec": 10295.594771707998,
+    "sample_count": 8379,
+    "valid_count": 8379,
+    "coverage": 1.0,
+    "timestamp_utc": "2026-02-28T09:13:45.211967+00:00",
+    "accuracy": 0.586108127461511,
+    "macro_f1": 0.5994169345531642,
+    "confusion_matrix": [
+      [
+        1614,
+        146,
+        406
+      ],
+      [
+        38,
+        1666,
+        173
+      ],
+      [
+        1801,
+        904,
+        1631
+      ]
+    ],
+    "classification_report": {
+      "true": {
+        "precision": 0.46741963509991313,
+        "recall": 0.7451523545706371,
+        "f1-score": 0.5744794447410572,
+        "support": 2166.0
+      },
+      "false": {
+        "precision": 0.6134020618556701,
+        "recall": 0.8875865743207245,
+        "f1-score": 0.7254517744393643,
+        "support": 1877.0
+      },
+      "mixture": {
+        "precision": 0.7380090497737557,
+        "recall": 0.37615313653136534,
+        "f1-score": 0.4983195844790712,
+        "support": 4336.0
+      },
+      "accuracy": 0.586108127461511,
+      "macro avg": {
+        "precision": 0.6062769155764464,
+        "recall": 0.6696306884742423,
+        "f1-score": 0.5994169345531642,
+        "support": 8379.0
+      },
+      "weighted avg": {
+        "precision": 0.6401472537950244,
+        "recall": 0.586108127461511,
+        "f1-score": 0.5688875971157739,
+        "support": 8379.0
+      }
+    }
+  },
+  {
+    "model": "google/gemma-3-12b-it",
+    "dataset": "pubhealth",
+    "split": "test",
+    "elapsed_sec": 1444.1093717500044,
+    "sample_count": 1186,
+    "valid_count": 1186,
+    "coverage": 1.0,
+    "timestamp_utc": "2026-02-28T09:37:49.373802+00:00",
+    "accuracy": 0.6096121416526138,
+    "macro_f1": 0.5431592756288273,
+    "confusion_matrix": [
+      [
+        428,
+        66,
+        105
+      ],
+      [
+        69,
+        232,
+        85
+      ],
+      [
+        74,
+        64,
+        63
+      ]
+    ],
+    "classification_report": {
+      "true": {
+        "precision": 0.7495621716287215,
+        "recall": 0.7145242070116862,
+        "f1-score": 0.7316239316239316,
+        "support": 599.0
+      },
+      "false": {
+        "precision": 0.6408839779005525,
+        "recall": 0.6010362694300518,
+        "f1-score": 0.6203208556149733,
+        "support": 386.0
+      },
+      "mixture": {
+        "precision": 0.2490118577075099,
+        "recall": 0.31343283582089554,
+        "f1-score": 0.2775330396475771,
+        "support": 201.0
+      },
+      "accuracy": 0.6096121416526138,
+      "macro avg": {
+        "precision": 0.5464860024122613,
+        "recall": 0.5429977707542112,
+        "f1-score": 0.5431592756288273,
+        "support": 1186.0
+      },
+      "weighted avg": {
+        "precision": 0.6293594769598878,
+        "recall": 0.6096121416526138,
+        "f1-score": 0.6184407472843826,
+        "support": 1186.0
+      }
+    }
+  }
+]

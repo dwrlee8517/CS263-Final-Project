@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "dataset": "intel",
+  "split": "test",
+  "elapsed_sec": 29173.907048,
+  "sample_count": 8379,
+  "valid_count": 0,
+  "coverage": 0.0,
+  "timestamp_utc": "2026-02-28T05:18:51.298482+00:00",
+  "accuracy": null,
+  "macro_f1": null,
+  "confusion_matrix": [],
+  "classification_report": {}
+}

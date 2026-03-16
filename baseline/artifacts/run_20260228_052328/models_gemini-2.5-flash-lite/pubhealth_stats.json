@@ -1,0 +1,62 @@
+{
+  "model": "models/gemini-2.5-flash-lite",
+  "dataset": "pubhealth",
+  "split": "test",
+  "elapsed_sec": 19.569422917000338,
+  "sample_count": 9,
+  "valid_count": 9,
+  "coverage": 1.0,
+  "timestamp_utc": "2026-02-27T08:04:17.861602+00:00",
+  "accuracy": 0.7777777777777778,
+  "macro_f1": 0.5079365079365079,
+  "confusion_matrix": [
+    [
+      6,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "classification_report": {
+    "true": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 8.0
+    },
+    "false": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "mixture": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.7777777777777778,
+    "macro avg": {
+      "precision": 0.5,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.5079365079365079,
+      "support": 9.0
+    },
+    "weighted avg": {
+      "precision": 0.9444444444444444,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.8359788359788359,
+      "support": 9.0
+    }
+  }
+}

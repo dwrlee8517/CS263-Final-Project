@@ -1,0 +1,62 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "dataset": "pubhealth",
+  "split": "test",
+  "elapsed_sec": 1069.055334625009,
+  "sample_count": 966,
+  "valid_count": 965,
+  "coverage": 0.9989648033126294,
+  "timestamp_utc": "2026-03-02T01:00:31.497531+00:00",
+  "accuracy": 0.49119170984455957,
+  "macro_f1": 0.48083631934343246,
+  "confusion_matrix": [
+    [
+      226,
+      55,
+      211
+    ],
+    [
+      34,
+      165,
+      109
+    ],
+    [
+      42,
+      40,
+      83
+    ]
+  ],
+  "classification_report": {
+    "true": {
+      "precision": 0.7483443708609272,
+      "recall": 0.45934959349593496,
+      "f1-score": 0.5692695214105793,
+      "support": 492.0
+    },
+    "false": {
+      "precision": 0.6346153846153846,
+      "recall": 0.5357142857142857,
+      "f1-score": 0.5809859154929577,
+      "support": 308.0
+    },
+    "mixture": {
+      "precision": 0.20595533498759305,
+      "recall": 0.503030303030303,
+      "f1-score": 0.29225352112676056,
+      "support": 165.0
+    },
+    "accuracy": 0.49119170984455957,
+    "macro avg": {
+      "precision": 0.5296383634879683,
+      "recall": 0.49936472741350785,
+      "f1-score": 0.48083631934343246,
+      "support": 965.0
+    },
+    "weighted avg": {
+      "precision": 0.6193052841430751,
+      "recall": 0.49119170984455957,
+      "f1-score": 0.525643624343784,
+      "support": 965.0
+    }
+  }
+}

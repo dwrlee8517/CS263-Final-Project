@@ -1,0 +1,62 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "dataset": "intel",
+  "split": "test",
+  "elapsed_sec": 54.507025917002466,
+  "sample_count": 50,
+  "valid_count": 50,
+  "coverage": 1.0,
+  "timestamp_utc": "2026-03-01T03:29:23.655599+00:00",
+  "accuracy": 0.6,
+  "macro_f1": 0.5783068783068783,
+  "confusion_matrix": [
+    [
+      16,
+      2,
+      1
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      10,
+      7,
+      5
+    ]
+  ],
+  "classification_report": {
+    "true": {
+      "precision": 0.6153846153846154,
+      "recall": 0.8421052631578947,
+      "f1-score": 0.7111111111111111,
+      "support": 19.0
+    },
+    "false": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 9.0
+    },
+    "mixture": {
+      "precision": 0.8333333333333334,
+      "recall": 0.22727272727272727,
+      "f1-score": 0.35714285714285715,
+      "support": 22.0
+    },
+    "accuracy": 0.6,
+    "macro avg": {
+      "precision": 0.6495726495726496,
+      "recall": 0.689792663476874,
+      "f1-score": 0.5783068783068783,
+      "support": 50.0
+    },
+    "weighted avg": {
+      "precision": 0.6905128205128206,
+      "recall": 0.6,
+      "f1-score": 0.5473650793650794,
+      "support": 50.0
+    }
+  }
+}

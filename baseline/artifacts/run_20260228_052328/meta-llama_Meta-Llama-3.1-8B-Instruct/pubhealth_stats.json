@@ -1,0 +1,62 @@
+{
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "dataset": "pubhealth",
+  "split": "test",
+  "elapsed_sec": 1225.132309833003,
+  "sample_count": 1186,
+  "valid_count": 1167,
+  "coverage": 0.9839797639123102,
+  "timestamp_utc": "2026-02-27T21:12:37.305504+00:00",
+  "accuracy": 0.5467009425878321,
+  "macro_f1": 0.5029207318162067,
+  "confusion_matrix": [
+    [
+      361,
+      62,
+      163
+    ],
+    [
+      92,
+      207,
+      85
+    ],
+    [
+      81,
+      46,
+      70
+    ]
+  ],
+  "classification_report": {
+    "true": {
+      "precision": 0.6760299625468165,
+      "recall": 0.6160409556313993,
+      "f1-score": 0.6446428571428572,
+      "support": 586.0
+    },
+    "false": {
+      "precision": 0.6571428571428571,
+      "recall": 0.5390625,
+      "f1-score": 0.592274678111588,
+      "support": 384.0
+    },
+    "mixture": {
+      "precision": 0.22012578616352202,
+      "recall": 0.3553299492385787,
+      "f1-score": 0.27184466019417475,
+      "support": 197.0
+    },
+    "accuracy": 0.5467009425878321,
+    "macro avg": {
+      "precision": 0.5177662019510653,
+      "recall": 0.503477801623326,
+      "f1-score": 0.5029207318162067,
+      "support": 1167.0
+    },
+    "weighted avg": {
+      "precision": 0.5928544944897218,
+      "recall": 0.5467009425878321,
+      "f1-score": 0.5644795104874178,
+      "support": 1167.0
+    }
+  }
+}

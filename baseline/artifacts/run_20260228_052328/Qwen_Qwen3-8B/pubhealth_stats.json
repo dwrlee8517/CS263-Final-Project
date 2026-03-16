@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "dataset": "pubhealth",
+  "split": "test",
+  "elapsed_sec": 3798.2572693330003,
+  "sample_count": 1186,
+  "valid_count": 0,
+  "coverage": 0.0,
+  "timestamp_utc": "2026-02-28T06:22:09.596062+00:00",
+  "accuracy": null,
+  "macro_f1": null,
+  "confusion_matrix": [],
+  "classification_report": {}
+}
