@@ -1,0 +1,3 @@
+dataset,n_scored,bleu,bertscore_precision,bertscore_recall,bertscore_f1,llm_model_id,bertscore_model_type
+intel_misclassified_top200,200,9.638345366660461,0.81755859375,0.8137660348415374,0.8151399332284928,meta-llama/Llama-3.2-1B-Instruct,distilbert-base-uncased
+pubhealth_misclassified_top200,200,0.6465636598302638,0.8076294204592704,0.7448820322751999,0.7729977813363075,meta-llama/Llama-3.2-1B-Instruct,distilbert-base-uncased
